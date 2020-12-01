@@ -203,8 +203,6 @@
    1674])
 
 (defn get-product-of-sum
-  "log each number and its opposite number
-  check each number and opposite and validate"
   [numbers opp-list goal]
   (let [number (first numbers)]
     (if-not number
